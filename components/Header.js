@@ -3,13 +3,15 @@ import Link from "next/link";
 import Image from "next/image";
 
 
+
+
 const Header = () => {
 
 
   return (
     <>
       <header className="p-1 dark:bg-gray-800 dark:text-gray-100 h-24 bg-slate-400">
-		<Image src="/HAClogo.png" alt="HAC logo" width={200} height={200} className="absolute top-0 left-0">
+		<Image src="/HACLogo.png" alt="HAC logo" width={200} height={200} className="absolute top-0 left-0">
 
 		</Image>
         <div className="container flex flex-row justify-end">
