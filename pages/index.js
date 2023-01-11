@@ -1,9 +1,10 @@
 import Head from "next/head";
 // import Image from 'next/image'
 import { Noto_Sans_Display } from "@next/font/google";
-import "../styles/Hero.module.css";
 import Image from "next/image";
 import heroImg from "../public/HeroSection.png";
+import Header from "../components/Header"
+
 
 const noto = Noto_Sans_Display();
 
@@ -20,9 +21,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* TODO:resize the lock, re-color? */}
       </Head>
-      <main className="wrapper">
-        <Image className={"fill"} src={heroImg} alt="gradient-background" />
-      </main>
+      <Header/>
+      
+  
+      <Image className={"fill"} src={heroImg} alt="gradient-background">
+
+      </Image>
     </>
   );
 }

@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+    
+@tailwind utilities;
+
+@layer components{
+    .header-button{
+        @apply px-8 py-3 rounded m-1 text-blue-900 font-bold hover:font-extrabold text-3xl;
+    }
+}
+
 html {
     position: relative;
     margin: 0;
@@ -5,14 +17,13 @@ html {
 }
 
 body {
-    /* background-image: url("../public/HeroSection.png"); */
     height: 100%;
     margin: 0%;
     padding:0%;
     background-repeat:no-repeat;
     background-size: 100vw, 100vh;
     background-clip:border-box;
-    /* background-color: red; */
+    
 }
 main{
     position: relative;
@@ -23,11 +34,11 @@ main{
 Image{
     margin: 0;
     padding: 0;
+    z-index: -1;
 }
 
 .fill{
-    /* object-fit:fill; */
-    /* width: max-content; */
     height: auto;
     width: 100vw;
 }
+

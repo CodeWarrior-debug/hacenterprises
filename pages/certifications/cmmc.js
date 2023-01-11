@@ -1,10 +1,10 @@
-import '../../styles/Hero.module.css'
+
 
 const HeroSection = () => {
   return (
     <>
       <div>
-        <p>Are we working?</p>
+        <p>About CMMC Certs</p>
       </div>
     </>
   )
