@@ -21,6 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         {/* TODO:resize the lock, re-color? */}
       </Head>
+      
       <Header/>
       
   

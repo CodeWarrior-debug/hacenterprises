@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 
 const Header = () => {
 
@@ -7,6 +9,9 @@ const Header = () => {
   return (
     <>
       <header className="p-1 dark:bg-gray-800 dark:text-gray-100 h-24 bg-slate-400">
+		<Image href="../public/HAClogo.png" alt="HAC logo" className="">
+
+		</Image>
         <div className="container flex flex-row justify-end">
           {/* <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2 w-2">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-8 h-8 dark:text-violet-400 ">
