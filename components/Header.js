@@ -18,9 +18,6 @@ const Header = () => {
 
           <div className="flex-shrink-0 hidden lg:flex">
             <div className="nav-area">
-              {/* <Link href="/" className="logo">
-                Logo
-              </Link> */}
               <Navbar />
             </div>
 

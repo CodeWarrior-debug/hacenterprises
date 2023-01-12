@@ -1,0 +1,17 @@
+
+ .cardGlass   {
+background: hsla(0, 0%, 100%, 0.35);
+box-shadow: 0 8px 32px 0 hsla(236, 63%, 33%, 0.37);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid hsla(0, 0%, 100%, 0.18);
+border-radius: 10px;
+text-align: center;
+padding: .5rem;
+    }
+
+.title{
+    font-size: xx-large;
+}
+
+

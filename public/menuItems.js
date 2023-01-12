@@ -65,4 +65,8 @@ export const menuItems = [
     title: "About",
     url: "/about",
   },
+  {
+    title: "Demo Homepage",
+    url: "/htmlhomepage",
+  },
 ];
