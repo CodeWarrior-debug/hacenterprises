@@ -1,10 +1,13 @@
 import { menuItems } from '../public/menuItems';
 import MenuItems from './MenuItems'
+
+
+
 const Navbar = () => {
   const depthLevel=0;
   return (
-    <nav>
-      <ul className="menus">
+    <nav className='bg-slate'>
+      <ul className="menus flex flex-row justify-between">
         {menuItems.map((menu, index) => {
           
           return <MenuItems items={menu} key={index} depthLevel={depthLevel}/>;

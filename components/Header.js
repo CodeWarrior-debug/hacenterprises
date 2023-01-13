@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <>
-      <header className="p-1 dark:bg-gray-800 dark:text-gray-100 h-24 bg-slate-400">
+      <header className="p-1 h-24 bg-slate">
         <Image
           src="/HACLogo.png"
           alt="HAC logo"
