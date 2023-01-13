@@ -96,7 +96,8 @@ Image{
   
   .menu-items {
     position: relative;
-    font-size: 14px;
+    font-size: large;
+    color: white;
   }
   
   .menu-items a {
@@ -109,7 +110,7 @@ Image{
   .menu-items button {
     display: flex;
     align-items: center;
-    color: inherit;
+    color: white;
     font-size: inherit;
     border: none;
     background-color: transparent;
@@ -152,7 +153,7 @@ Image{
     min-width: 10rem;
     padding: 0.5rem 0;
     list-style: none;
-    
+    color: white;
     background-color: var(--slate);
     border-radius: 0.5rem;
     display: none;
@@ -167,6 +168,7 @@ Image{
     left: 100%;
     top: -7px;
     background-color: (--slate);
+    color: white;
   }
   
   /* content */
