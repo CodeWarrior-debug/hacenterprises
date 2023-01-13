@@ -86,7 +86,7 @@ export const menuItems = [
     url: "/experience",
     submenu: [
       {
-        title: "1",
+        title: "People + Processes = Performance",
         url: "/experience/people_processes_make_performance",
       },
       {
@@ -126,8 +126,4 @@ export const menuItems = [
     title: "Contact Us",
     url: "/contact_us",
   },
-  // {
-  //   title: "Demo Homepage",
-  //   url: "/htmlhomepage",
-  // },
 ];

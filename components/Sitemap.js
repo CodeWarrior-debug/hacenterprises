@@ -6,19 +6,21 @@ import React from "react";
 const Sitemap = () => {
   return (
     <>
-      <div className="grid ">
-        <div className="flex justify-evenly">
+      {/* <div className="flex"> */}
+        <div className="flex justify-start">
           {HACofferings.map((topObject, index) => {
             return (
               <>
-                <div className="text-center">
+                <div className=" flex flex-col text-center  ml-12 mr-12">
+                  <div className="min-h-[64px] flex flex-col justify-center">
                   <Link
                     href={topObject.url}
-                    className="text-white ml-4 mr-4 hover:underline"
+                    className="text-white hover:underline text-xl"
                     key={index}
                   >
                     {topObject.title}
                   </Link>
+                  </div>
 
                   {topObject.submenu
                     ? topObject.submenu.map((item, index) => {
@@ -60,7 +62,7 @@ const Sitemap = () => {
     }
       </div> */}
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 };

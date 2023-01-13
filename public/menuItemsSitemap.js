@@ -1,27 +1,7 @@
 
-const what_we_do= {
-  title: "What We Do",
-  url: "/what_we_do",
-  submenu: [
-    {
-      title: "Architecture Development",
-      url: "/what_we_do/architecture_dev",
-    },
-    { title: "Modernization", url: "/what_we_do/modernization" },
-    {
-      title: "Data & Information Security Solutions",
-      url: "/what_we_do/security_solutions",
-    },
-  ],
-}
-
-
 const HACofferings = 
 
-[ {
-  title: "Home",
-  url: "/",
-},
+[ 
 
  {
   title: "What We Do",
@@ -50,16 +30,13 @@ const HACofferings =
     {
       title: "CMMI v2.0",
       url: "/cmmi_v2.0",
-      submenu: [
-        { title: "CMMI-SVC v2.0 (Services)", url: "/cmmi_v2.0/cmmi_svc_v2.0 " },
-        {
-          title: "CMMI-DEV v2.0 (Development)",
-          url: "/cmmi_v2.0/cmmi_dev_v2.0",
-        },
-        { title: "Agile Methodology", url: "/cmmi_v2.0/agile" },
-      ],
     },
+    {
+      title: "more",
+      url: "more",
+    }
   ],
+
 },
 
 {
@@ -90,7 +67,7 @@ const HACofferings =
   url: "/experience",
   submenu: [
     {
-      title: "1",
+      title: "People + Processes = Performance",
       url: "/experience/people_processes_make_performance",
     },
     {
@@ -121,17 +98,19 @@ const HACofferings =
     },
   ],
 },
+
  {
-  title: "Careers",
-  url: "/careers",
-},
- {
-  title: "Contact Us",
+  title: "Connect",
   url: "/contact_us",
-},
- {
-  title: "Demo Homepage",
-  url: "/htmlhomepage",
+  submenu: [
+    {
+      title: "Careers",
+      url: "/careers",
+    },
+    {
+      title: "Our Values",
+      url: "/contact_us"}
+    ]
 }
 ]
-module.exports = { HACofferings, what_we_do};
+module.exports = { HACofferings};

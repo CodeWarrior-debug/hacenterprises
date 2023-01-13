@@ -28,6 +28,14 @@
   color: var(--slate);
 }
 
+.text-rblue{
+  color: var(--rylblue);
+}
+
+.text-green{
+  color: var(--green);
+}
+
 html {
     position: relative;
     margin: 0;

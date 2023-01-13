@@ -1,10 +1,3 @@
-.hero-background{
-background-image: url('/Laserworld_BeamBar_Blue_0005_beam.jpg');
-width: fit-content;
-height: fit-content;
-}
-
-
 .cardGlass   {
     background: hsla(0, 0%, 100%, 0.35);
     box-shadow: 0 8px 32px 0 hsla(236, 63%, 33%, 0.37);

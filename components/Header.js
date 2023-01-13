@@ -6,22 +6,21 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <>
-      <header className="p-1 h-24 bg-slate">
-        <Image
-          src="/HACLogo.png"
-          alt="HAC logo"
-          width={200}
-          height={200}
-          className="absolute top-0 left-0"
-        ></Image>
-        <div className="container flex flex-row justify-end">
-
-          <div className="flex-shrink-0 hidden lg:flex">
+      <header className="min-h-[200px] bg-slate">
+        <div className="block">
+          <Image
+            src="/HACLogo.png"
+            alt="HAC logo"
+            width={200}
+            height={200}
+            className="absolute top-0 left-0  block"
+          ></Image>
+        </div>
+        <div className="flex flex-row flex-wrap-reverse max-w-3/5 justify-end">
+          <div className="hidden lg:flex">
             <div className="nav-area">
               <Navbar />
             </div>
-
-
           </div>
         </div>
       </header>
