@@ -24,12 +24,40 @@
   background-color: var(--slate);
 }
 
+.bg-green{
+  background-color: var(--green);
+}
+
+.bg-aqua{
+  background-color: var(--aqua);
+}
+
+.bg-white{
+  background-color: var(--white);
+}
+
+
+.bg-ltblue{
+  background-color: var(--ltblue);
+}
+.bg-rylblue{
+  background-color: var(--rylblue);
+}
+
 .text-slate{
   color: var(--slate);
 }
 
-.text-rblue{
+.text-rylblue{
   color: var(--rylblue);
+}
+
+.text-ltblue{
+  color: var(--ltblue);
+}
+
+.text-aqua{
+  color: var(--aqua);
 }
 
 .text-green{
