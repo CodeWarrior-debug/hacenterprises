@@ -6,13 +6,13 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <>
-      <header className="min-h-[200px] bg-slate">
+      <header className="min-h-[95px] bg-slate">
         <div className="block">
           <Image
             src="/HACLogo.png"
             alt="HAC logo"
             width={200}
-            height={200}
+            height={95}
             className="absolute top-0 left-0  block"
           ></Image>
         </div>

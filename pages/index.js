@@ -6,6 +6,7 @@ import Image from "next/image";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import Offerings from "../components/Offerings";
 
 const noto = Noto_Sans_Display();
 
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero/>
+      <Offerings/>
       {/* <Image className={"fill"} src={heroImg} alt="gradient-background"></Image> */}
       <Footer className="z-40 min-h-fit text-white" />
     </>

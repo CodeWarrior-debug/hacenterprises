@@ -108,7 +108,7 @@ const HACofferings =
       url: "/careers",
     },
     {
-      title: "Our Values",
+      title: "Contact Us",
       url: "/contact_us"}
     ]
 }
