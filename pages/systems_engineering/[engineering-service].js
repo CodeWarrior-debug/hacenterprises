@@ -63,7 +63,7 @@ const EngineeringService = () => {
 
     <div className='grid grid-cols-2'>
         <div className='col-span-1 flex flex-col justify-center'>
-            <p className='p-8 text-xl pr-16'>See on your company's associated Sharepoint site </p>
+            <p className='p-8 text-xl pr-16'>See on your company&apos;s  associated Sharepoint site </p>
         </div>
         <div className='col-span-1 flex flex-col justify-start ml-16'>
             <Link href={link}>

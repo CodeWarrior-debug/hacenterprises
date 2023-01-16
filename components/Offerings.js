@@ -17,9 +17,9 @@ const Offerings = () => {
           <h4 className="text-center font-bold text-xl text-green mb-2  ">ARCHITECTURE</h4>
           <p className="m-4">
             Our end-to-end architectural solutions rely on through understanding
-            of our client's goals and objectives, state of environment, and
+            of our client&apos;s goals and objectives, state of environment, and
             challenges. Our primary mission is to create solutions that maximize
-            our client's ROI through effective coordination and collaboration
+            our client&apos;s ROI through effective coordination and collaboration
             with stakeholders.
           </p>
         </div>
