@@ -6,13 +6,13 @@ const Footer = () => {
     <>
     <div className='bg-slate grid grid-cols-5 '>
       
-      <div className='img-["/business_card.png"] col-start:1 col-span-1 mr-4 '>
+      <div className='img-["/business_card.png"] col-start:1 col-span-1 mr-4 align-center justify-center'>
         <Image
                     src="/business_card.png"
                     alt="Business Card"
-                    width={200}
+                    width={800}
                     height={200}
-                    className="min-h-fit min-w-fit block"
+                    className=""
         >
 
         </Image>

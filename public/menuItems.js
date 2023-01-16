@@ -64,8 +64,8 @@ export const menuItems = [
     url: "/systems_engineering",
     submenu: [
       {
-        title: "1",
-        url: "1",
+        title: "Operation Research, Analytics",
+        url: "/systems_engineering/op_research_and_analytics",
       },
       {
         title: "2",

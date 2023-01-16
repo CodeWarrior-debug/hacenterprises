@@ -1,14 +1,11 @@
 import Head from "next/head";
-// import Image from 'next/image'
-import { Noto_Sans_Display } from "@next/font/google";
-import Image from "next/image";
-// import heroImg from "../public/HeroSection.png";
-import Header from "../components/Header";
+// import { Noto_Sans_Display } from "@next/font/google";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Offerings from "../components/Offerings";
+import ProcessPane from "../components/ProcessPane";
 
-const noto = Noto_Sans_Display();
+// const noto = Noto_Sans_Display();
 
 export default function Home() {
   return (
@@ -24,9 +21,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />{" "}
         {/* TODO:resize the lock, re-color? */}{" "}
       </Head>
-      <Header />
       <Hero/>
       <Offerings/>
+      <ProcessPane/>
       {/* <Image className={"fill"} src={heroImg} alt="gradient-background"></Image> */}
       <Footer className="z-40 min-h-fit text-white" />
     </>
