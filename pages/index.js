@@ -21,11 +21,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />{" "}
         {/* TODO:resize the lock, re-color? */}{" "}
       </Head>
+      <div className="bg-black">
+
       <Hero/>
       <Offerings/>
       <ProcessPane/>
       {/* <Image className={"fill"} src={heroImg} alt="gradient-background"></Image> */}
       <Footer className="z-40 min-h-fit text-white" />
+      </div>
     </>
   );
 }

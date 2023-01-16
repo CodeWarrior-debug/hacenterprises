@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const EngineeringService = () => {
 
     const service = "Operations Research and Analysis"
+    const link = "https://hacenterprisenet.sharepoint.com/sites/HACEnterprise-HACWebsite/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FHACEnterprise%2DHACWebsite%2FShared%20Documents%2FHAC%20Website%2FOperations%20Research%20%26%20Analysis&viewid=6eab7634%2D4a1f%2D4601%2D9290%2D36c9e69415b5"
   return (
     <>
     <div className='bg-white' >
@@ -15,7 +17,9 @@ const EngineeringService = () => {
 
 
     </div>
+    <div>
     <h3 className='text-aqua text-3xl m-8 mb-0 mr-16 font-bold'>What is {service}?</h3>
+
     <div className='grid grid-cols-2'>
         <div className='col-span-1 flex flex-col justify-center'>
             <p className='p-8 text-xl pr-16'>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
@@ -39,7 +43,49 @@ const EngineeringService = () => {
 
             </Image>
         </div>
+
+
     </div>
+
+    </div>
+
+    <div>
+    <h3 className='text-aqua text-3xl m-8 mb-0 mr-16 font-bold underline' >
+        
+        <Link
+        href={link}
+        >
+        View my {service} files...
+        </Link>
+        
+        
+        </h3>
+
+    <div className='grid grid-cols-2'>
+        <div className='col-span-1 flex flex-col justify-center'>
+            <p className='p-8 text-xl pr-16'>See on your company's associated Sharepoint site </p>
+        </div>
+        <div className='col-span-1 flex flex-col justify-start ml-16'>
+            <Link href={link}>
+            
+            <Image
+            src='/sharepoint.png'
+            alt='sharepoint image'
+            width={400}
+            height={200}
+            >
+
+            </Image>
+            </Link>
+        </div>
+
+
+    </div>
+
+    </div>
+    
+
+
     </div>
     </>
   )

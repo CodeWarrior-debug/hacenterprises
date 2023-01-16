@@ -15,7 +15,7 @@ const Sitemap = () => {
                   <div className="min-h-[64px] flex flex-col justify-center">
                   <Link
                     href={topObject.url}
-                    className="text-white hover:underline text-xl"
+                    className="text-white hover:underline font-semibold text-l"
                     key={index}
                   >
                     {topObject.title}
@@ -28,7 +28,7 @@ const Sitemap = () => {
                           <>
                             <div key={index} className="text-white font-normal flex flex-wrap justify-center">
                               <Link href={item.url} className="hover:underline">
-                                <h3>{item.title}</h3>{" "}
+                                <h3 className="text-sm">{item.title}</h3>{" "}
                               </Link>
                             </div>
                           </>

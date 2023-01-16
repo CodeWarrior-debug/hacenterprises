@@ -3,7 +3,7 @@ import React from "react";
 const Offerings = () => {
   return (
     <>
-      <div className="offering_wrapper">
+      <div className="offering_wrapper ">
         <div className="grid grid-cols-2 w-full ">
           {/* Compnent Left - Banner */}
           <div className="col-span-1  ">

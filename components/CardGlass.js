@@ -7,7 +7,7 @@ import { boasts } from '../public/majorBoastitems'
 const CardGlass = (props) => {
   return (
     <>
-    <div className='h-full w-2/5'>
+    <div className='h-full w-3/5'>
 
     {
       boasts.map((item)=>{
