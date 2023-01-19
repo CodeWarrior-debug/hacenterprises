@@ -16,8 +16,16 @@ const Index = () => {
   ];
   return (
     <>
-      <div className="bg-white m-16">
-        <ul>
+      <div className="bg-white mb-16">
+      <div className='bg-slate-200 min-h-[4rem]'>
+    <h1 className='text-center text-aqua text-6xl p-8'>
+        Systems Engineering
+    </h1>
+
+
+
+    </div>
+        <ul className="mt-8 indent-4">
           {myArray.map((item, index) => {
             return (
               <>
