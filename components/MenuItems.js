@@ -48,7 +48,12 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
           >
-            <Link href={items.url}>{items.title}</Link>
+            <Link href={items.url}>{
+
+             items.title
+
+
+            }</Link>
 
             {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
           </button>
