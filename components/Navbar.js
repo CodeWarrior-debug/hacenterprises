@@ -6,8 +6,10 @@ import MenuItems from './MenuItems'
 const Navbar = () => {
   const depthLevel=0;
   return (
-    <nav className='bg-slate'>
-      <ul className="menus flex flex-row justify-between flex-wrap">
+    <nav>
+      <ul className="flex flex-row justify-between flex-wrap">
+
+      {/* <ul className="flex flex-row justify-between flex-wrap"> */}
         {/* TODO why is flext not wrapping??? */}
         {menuItems.map((menu, index) => {
           

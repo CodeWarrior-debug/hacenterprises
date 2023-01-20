@@ -35,7 +35,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="menu-items"
+      className="menu-items font-bold"
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={closeDropdown}
@@ -55,7 +55,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
             }</Link>
 
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
           </button>
           <Dropdown
             submenus={items.submenu}
@@ -67,7 +67,7 @@ const MenuItems = ({ items, depthLevel }) => {
         <>
           <button>
             {items.title} <Link href={items.url}>{items.title}</Link>
-            {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />}
+            {/* {depthLevel > 0 ? <span>&raquo;</span> : <span className="arrow" />} */}
           </button>
           <Dropdown
             submenus={items.submenu}

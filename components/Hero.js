@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <div
       ref={observe}
-      className="w-full h-screen flex justify-center items-center overflow-hidden relative bg-black myHero"
+      className="w-full h-screen flex justify-center overflow-hidden relative bg-black myHero"
     >
       <Image
         src="/homepage-header-background-V2.gif"
@@ -29,8 +29,9 @@ export default function Hero() {
         className="opacity-60 object-cover object-left-bottom"
         fill
       />
-      <div className="">
-        <Navbar className="z-10"></Navbar>
+      <div className="w-full">
+        
+        <Navbar/>
       </div>
     </div>
   );
