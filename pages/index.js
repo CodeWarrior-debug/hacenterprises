@@ -1,6 +1,7 @@
 import Head from "next/head";
+import Header from "../components/Header";
 // import { Noto_Sans_Display } from "@next/font/google";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Offerings from "../components/Offerings";
 import ProcessPane from "../components/ProcessPane";
@@ -12,18 +13,17 @@ export default function Home() {
     <>
       <Head>
         {" "}
-        <title>HAC Enterprises</title>{" "}
+        <title>HAC Enterprise</title>{" "}
         <meta
           name="description"
-          content="Hoshang Anklesaria Consulting Enterprises, your trusted advisor for commercial security implementations."
+          content="Hoshang Anklesaria Consulting Enterprise, your trusted advisor for commercial security implementations."
         />{" "}
         <meta name="viewport" content="width=device-width, initial-scale=1" />{" "}
         <link rel="icon" href="/favicon.ico" />{" "}
-        {/* TODO:resize the lock, re-color? */}{" "}
       </Head>
-
-      <div className="bg-black">
-        <Hero />
+      <Header/>
+      <div>
+        {/* <Hero /> */}
         {/* <Offerings/> */}
         <ProcessPane />
         {/* <Image className={"fill"} src={heroImg} alt="gradient-background"></Image> */}

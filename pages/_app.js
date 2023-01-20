@@ -1,8 +1,8 @@
 import '../styles/globals.css'
-import { Lato } from '@next/font/google'
-import Header from '../components/Header'
+import { Lato, Red_Hat_Display } from '@next/font/google'
 
-const lato = Lato({weight:['300']}, {style:['normal']},{subsets:['latin']})
+
+const red_hat = Red_Hat_Display({weight:['500']},{style:['normal']})
 
 
 export default function App({ Component, pageProps }) {
@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
     <>
     <style jsx global>{`
     html {
-      font-family: ${lato.style.fontFamily};
+      font-family: ${red_hat.style.fontFamily};
     }
   `}</style>
 

@@ -7,7 +7,7 @@ const Navbar = () => {
   const depthLevel=0;
   return (
     <nav className='w-full'>
-      <ul className="flex flex-row justify-between flex-wrap w-full border-b-4 border-purple-600">
+      <ul className="flex flex-row justify-between flex-wrap w-full">
 
       {/* <ul className="flex flex-row justify-between flex-wrap"> */}
         {/* TODO why is flext not wrapping??? */}
