@@ -23,43 +23,8 @@
 
 
 
-.heroWrapper {
-  position: relative;
-  width: 100vw;
-  height: 50vh;
-}
-
-
-.imageWrapper {
-  z-index: -1;
-}
-
-
-.heroContent {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-
-
-
-
-
-.bg-gif{
-  /* height: 33vh;
-  width: 100%; */
-
-  /* background-image: url("/w3images/photographer.jpg"); */
-  /* background-color: #cccccc; */
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  position: relative;
-  z-index: -1;
+.myHero{
+  height: 33vh;
 }
 
 .bg-slate{

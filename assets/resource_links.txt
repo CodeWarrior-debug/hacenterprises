@@ -1,4 +1,4 @@
 https://blog.logrocket.com/how-create-multilevel-dropdown-menu-react/ - did everything up until "Single-level dropdown on a smaller screen"
 
 
-
+https://medium.com/designly/creating-a-modern-hero-image-using-nextjs-13-images-and-tailwind-css-746fb5c92541 - how to set HeroImage
