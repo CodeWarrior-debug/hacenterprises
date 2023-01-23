@@ -1,28 +1,123 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-    <head> 
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
-        <title>New page</title>         
-        <script src="https://cdn.tailwindcss.com/"></script>         
-    </head>     
-    <body> 
-        <div class="flex-1 flex-row">
-            <nav class="grid grid-cols-8">
-                <div class="w-16 col-start-1 col-span-2">
-                    <img src="hac_logo.png">
+<!DOCTYPE html>
+<html lang="en" class="xl:border-none">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>HAC PINEGROW</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <div class="flex-1 flex-row">
+        <!--Navbar -->
+        <nav class="grid grid-cols-8 border-b-4 border-red-400">
+          <div class="w-16 col-start-1 col-span-2">
+            <img src="hac_logo.png" alt="company logo" />
+          </div>
+          <div class="col-span-6 grid grid-cols-1">
+            <ul class="flex flex-row justify-evenly items-end">
+              <li>HOME</li>
+              <li>WHAT WE DO</li>
+              <li>EXPERIENCE</li>
+              <li>OUR COMPANY</li>
+              <li>CONNECT</li>
+            </ul>
+          </div>
+        </nav>
+        <!--Principles-->
+        <section class="grid grid-cols-2 m-8">
+          <h2 class="col-span-1 m-auto font-extrabold text-4xl">
+            A full service technology
+            <br />
+            solutions company with a
+            <br />
+            passion & purpose towards:
+          </h2>
+          <div class="col-span-1">
+            <ul class="col-span-1">
+              <li
+                class="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white bg-[url('./link_button.svg')] indent-3 pt-4"
+              >
+                Providing Effective Communications
+              </li>
+              <li
+                class="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white bg-[url('./link_button.svg')] indent-3 pt-4 text-green-800"
+              >
+                Providing Effective Communication2
+              </li>
+              <li
+                class="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white bg-[url('./link_button.svg')] indent-3 pt-4 text-green-800"
+              >
+                Providing Effective Communication3
+              </li>
+              <li
+                class="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white bg-[url('./link_button.svg')] indent-3 pt-4 text-green-800"
+              >
+                Providing Effective Communication4
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Offerings -->
+        <section>
+          <ul>
+            <li class="grid grid-cols-2">
+              <div>
+                <div
+                  class="bg-no-repeat text-center bg-cover h-1/4 bg-[url('offering_bg_hover.png')] m-0"
+                >
+                  <!-- TODO, middle align h3, change text, fix tiny gap? -->
+                  <h3 class="text-white">ARCHITECTING SMARRTT SOLUTIONS</h3>
                 </div>
-                <div class="col-span-6 grid grid-cols-1">
-                    <ul class="flex flex-row justify-evenly items-end">
-                        <li>HOME</li>
-                        <li>WHAT WE DO</li>
-                        <li>EXPERIENCE</li>
-                        <li>OUR COMPANY</li>
-                        <li>CONNECT</li>
-                    </ul>
+                <div
+                  class="bg-no-repeat text-center bg-cover h-1/4 bg-[url('offering_bg.png')] m-0"
+                >
+                  <h3 class="text-purple-400">
+                    ARCHITECTING Lorem ipsum dolor
+                  </h3>
                 </div>
-            </nav>
-            <div>------Next Element After Nav-----------</div>
-        </div>
-    </body>     
+                <div
+                class="bg-no-repeat text-center bg-cover h-1/4 bg-[url('offering_bg.png')] m-0"
+              >
+                <h3 class="text-purple-400">
+                  ARCHITECTING Lorem ipsum dolor
+                </h3>
+              </div>
+              <div
+              class="bg-no-repeat text-center bg-cover h-1/4 bg-[url('offering_bg.png')] m-0"
+            >
+              <h3 class="text-purple-400">
+                ARCHITECTING Lorem ipsum dolor
+              </h3>
+            </div>
+              </div>
+              <div class="col-span-1 m-8">
+                <h2 class="text-blue-300 font-extrabold">
+                  OUR SMARRTT SOLUTIONS
+                </h2>
+                <div class="flex flex-row">
+                  <p class="w-2/3 m-4 ml-0">
+                    are based on knowledge and understanding of our clients’
+                    goals and objectives, state of business environment, and
+                    challenges. Our primary purpose is to effectively and
+                    efﬁciently create solutions that maximize clients’ ROI
+                    through coordination and collaboration.
+                  </p>
+                  <img
+                    src="./smart_drill.png"
+                    alt="standards_drilldown"
+                    class="m-4 mt-6"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>
