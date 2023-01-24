@@ -22,6 +22,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />{" "}
       </Head>
       <Header/>
+                <nav className="grid grid-cols-8 border-b-4 border-red-400">
+          <div className="w-16 col-start-1 col-span-2">
+          {/* TODO bring in new logo image */}
+
+          </div>
+          <div className="col-span-6 grid grid-cols-1">
+            <ul className="flex flex-row justify-evenly items-end">
+              <li>HOME</li>
+              <li>WHAT WE DO</li>
+              <li>EXPERIENCE</li>
+              <li>OUR COMPANY</li>
+              <li>CONNECT</li>
+            </ul>
+          </div>
+        </nav>
       <div>
         {/* <Hero /> */}
         {/* <Offerings/> */}
