@@ -6,7 +6,7 @@ import MenuItems from './MenuItems'
 const Navbar = () => {
   const depthLevel=0;
   return (
-    <nav className='w-full'>
+    <nav className="col-span-2">
       <ul className="flex flex-row justify-evenly flex-wrap w-full">
 
         {/* TODO why is flext not wrapping??? */}

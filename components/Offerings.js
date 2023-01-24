@@ -10,30 +10,30 @@ const Offerings = () => {
             <li className="grid grid-cols-2">
               <div>
                 <div
-                  className="bg-no-repeat bg-cover h-1/4 blue_button_hover  m-0 grid items-center"
+                  className="bg-no-repeat bg-cover h-1/4 bg-regal-blue hover:bg-blue-400 m-0 grid items-center"
                 >
                   {/* <!-- TODO, middle align h3, change text, fix tiny gap? --> */}
-                  <h3 className="text-white font-extrabold text-2xl indent-16">ARCHITECTING SMARRTT SOLUTIONS</h3>
+                  <h3 className="text-white font-extrabold text-2xl pl-16">ARCHITECTING SMARRTT SOLUTIONS</h3>
                 </div>
                 <div
                   className="bbg-no-repeat bg-cover h-1/4 blue_image hover:blue_button_hover m-0 grid items-center"
                 >
-                  <h3 className="font-extrabold text-2xl indent-16 text-purple-400">
-                    ARCHITECTING Lorem ipsum dolor
+                  <h3 className="font-extrabold text-2xl pl-16 text-white">
+                    SYSTEM DEVELOPMENT, INTEGRATION, & ENHANCEMENT
                   </h3>
                 </div>
                 <div
                   className="bbg-no-repeat bg-cover h-1/4 blue_image hover:blue_button_hover m-0 grid items-center"
                 >
-                  <h3 className="font-extrabold text-2xl indent-16 text-purple-400">
-                    ARCHITECTING Lorem ipsum dolor 
+                  <h3 className="font-extrabold text-2xl pl-16 text-white">
+                  DATA & INFORMATION SECURITY
                   </h3>
                 </div>
                 <div
                   className="bbg-no-repeat bg-cover h-1/4 blue_image hover:blue_button_hover m-0 grid items-center"
                 >
-                  <h3 className="font-extrabold text-2xl indent-16 text-purple-400">
-                    ARCHITECTING Lorem ipsum dolor
+                  <h3 className="font-extrabold text-2xl pl-16 text-white">
+                  EXPERTISE IN
                   </h3>
                 </div>
 

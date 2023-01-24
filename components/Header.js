@@ -6,12 +6,12 @@ import Navbar from "./Navbar";
 
 export default function Header() {
   //
-  const [heroImage, setHeroImage] = useState("hero-1920.jpg");
-  const imageSizes = [600, 1280, 1920];
+  const [heroImage, setHeroImage] = useState("/hero-1440.png");
+  const imageSizes = [720, 1080,1440];
 
   const { observe, unobserve, width, height, entry } = useDimensions({
     onResize: ({ observe, unobserve, width, height, entry }) => {
-      setHeroImage(`hero-${arrayCeil(imageSizes, width)}.jpg`);
+      setHeroImage(`/hero-${arrayCeil(imageSizes, width)}.png`);
 
       unobserve(); // To stop observing the current target element
       observe(); // To re-start observing the current target element
@@ -22,14 +22,14 @@ export default function Header() {
     <>
     <div
       ref={observe}
-      className=" overflow-hidden relative bg-black myHero z-0">
+      className=" overflow-hidden object-fill relative bg-black myHero z-0">
 
       {/* large Background GIF, has to be in parent of foreground text */}
 
       <Image
-        src="/homepage-header-background-V2.gif"
+        src={heroImage}
         alt="Hero Image"
-        className="opacity-100 object-cover object-left-bottom -z-10"
+        className="opacity-100  object-left-bottom -z-10"
         fill
       />
 
@@ -43,13 +43,20 @@ export default function Header() {
               alt="HAC logo"
               width={200}
               height={95}
-              className="absolute top-0 left-0 block "
+              className="absolute top-0 left-0 block w-[199px]  "
             ></Image>
+              {/* <Image
+              src="/hac_logo.png"
+              alt="HAC logo"
+              width={100}
+              height={100}
+              className="absolute top-0 left-0 block "
+            ></Image> */}
           </div>
 
         {/* Navbar */}
 
-          <Navbar className="col-span-2" />
+          <Navbar />
           {/* TODO offset top, spread evenly across right */}
 
 
@@ -57,10 +64,11 @@ export default function Header() {
       </div>
       
     {/* Principles */}
+    {/* sm: md: lg: xl: */}
 
     <div className="h-full flex flex-col justify-center z-10">
-      <section className="grid grid-cols-2 m-8 mt-0">
-            <h2 className="col-span-1 mr-auto ml-auto font-extrabold text-6xl text-white leading-relaxed ">
+      <section className="grid grid-cols-2 m-8 mt-20">
+            <h2 className="col-span-1 mr-auto ml-auto font-extrabold  text-white text-lg sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl">
               A full service technology
               <br />
               solutions company with a
@@ -70,24 +78,24 @@ export default function Header() {
             <div className="col-span-1">
               <ul className="col-span-1">
                 <li
-                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white indent-3 pt-4 red_button"
+                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white pl-3 pt-4 red_button"
                 >
                   Providing Effective Communications
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-green-700 indent-3 pt-4 red_button"
+                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white pl-3 pt-4 red_button"
                 >
-                  TODO map names and links!!!!!!!!!
+                 Maximizing Return On Investment
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-green-700 indent-3 pt-4 red_button"
+                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white pl-3 pt-4 red_button"
                 >
-                  Providing Effective Communications
+                  Providing Timely Deliverables
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-green-700 indent-3 pt-4 red_button"
+                  className="bg-transparent bg-no-repeat text-lg bg-auto h-16 mb-8 text-white pl-3 pt-4 red_button"
                 >
-                  Providing Effective Communications
+                  Architecting SMARRTT Solutions
                 </li>
               </ul>
             </div>
