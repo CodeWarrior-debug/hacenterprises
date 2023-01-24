@@ -48,7 +48,7 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
           >
-            <Link href={items.url}>{
+            <Link href={items.url} className="text-center ">{
 
              items.title
 

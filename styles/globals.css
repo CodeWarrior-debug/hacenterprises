@@ -24,6 +24,14 @@
   background-image: url('/link_button.svg');
 }
 
+.blue_image{
+  background-image: url('/offering_background.png');
+}
+
+.blue_button_hover{
+  background-image: url('/offering_hoverbackground.png');
+}
+
 
 .myHero{
   height: 65vh;
