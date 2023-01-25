@@ -4,23 +4,18 @@ import Sitemap from './Sitemap'
 const Footer = () => {
   return (
     <>
-    <div className='bg-slate grid grid-cols-5 '>
+    <div className='bg-navy '>
       
-      <div className='img-["/business_card.png"] col-start:1 col-span-1 mr-4 align-center justify-center'>
-        <Image
-                    src="/business_card.png"
-                    alt="Business Card"
-                    width={800}
-                    height={200}
-                    className=""
-        >
 
-        </Image>
-      </div>
-      <div>
+      <Sitemap />
 
-      <Sitemap className=" col-start-3 col-end-5"/>
-      </div>
+      
+      <p className='text-white text-center mt-12 pb-4 italic'>
+      ©2023 HAC Enterprise - SMS & ISMS Systems Solutions. All Rights Reserved.
+      </p>
+      <p className='text-white text-end pr-8 font-bold'>
+        TM HAX-00XX23
+      </p>
 
     </div>
     </>

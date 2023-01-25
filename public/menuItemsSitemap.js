@@ -8,8 +8,8 @@ const HACofferings =
   url: "/what_we_do",
   submenu: [
     {
-      title: "Architecture Development",
-      url: "/what_we_do/architecture_dev",
+      title: "Architecting SMARRTT Solutions",
+      url: "/what_we_do/architecting_smarrtt",
     },
     { title: "Modernization", url: "/what_we_do/modernization" },
     {
@@ -19,48 +19,48 @@ const HACofferings =
   ],
 },
 
- {
-  title: "Certifications",
-  url: "/certifications",
-  submenu: [
-    {
-      title: "CMMC",
-      url: "cmmc",
-    },
-    {
-      title: "CMMI v2.0",
-      url: "/cmmi_v2.0",
-    },
-    {
-      title: "more",
-      url: "more",
-    }
-  ],
+//  {
+//   title: "Certifications",
+//   url: "/certifications",
+//   submenu: [
+//     {
+//       title: "CMMC",
+//       url: "cmmc",
+//     },
+//     {
+//       title: "CMMI v2.0",
+//       url: "/cmmi_v2.0",
+//     },
+//     {
+//       title: "more",
+//       url: "more",
+//     }
+//   ],
 
-},
+// },
 
-{
-  title: "Systems Engineering",
-  url: "/systems_engineering",
-  submenu: [
-    {
-      title: "1",
-      url: "1",
-    },
-    {
-      title: "2",
-      url: "2",
-    },
-    {
-      title: "3",
-      url: "3",
-    },
-    {
-      title: "x",
-      url: "x",
-    },
-  ],
-},
+// {
+//   title: "Systems Engineering",
+//   url: "/systems_engineering",
+//   submenu: [
+//     {
+//       title: "1",
+//       url: "1",
+//     },
+//     {
+//       title: "2",
+//       url: "2",
+//     },
+//     {
+//       title: "3",
+//       url: "3",
+//     },
+//     {
+//       title: "x",
+//       url: "x",
+//     },
+//   ],
+// },
 
  {
   title: "Experience",

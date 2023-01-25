@@ -7,7 +7,7 @@ const Navbar = () => {
   const depthLevel=0;
   return (
     <nav className="col-span-2">
-      <ul className="flex flex-row justify-evenly flex-wrap w-full">
+      <ul className="flex flex-row justify-evenly flex-wrap w-full h-full items-center">
 
         {/* TODO why is flext not wrapping??? */}
         {menuItems.map((menu, index) => {
