@@ -20,6 +20,27 @@
 
 }
 
+.first-offer-deets{
+display: block;
+}
+
+.first-offer:hover .second-offer-deets{
+  display:show;
+}
+
+
+.second-offer-deets{
+  display: none;
+  }
+
+.hover_spot:hover .hide-display_spot{
+display: block;
+}
+
+.hide-display_spot{
+  display: none;
+}
+
 .red_button{
   background-image: url('/link_button.svg');
 }

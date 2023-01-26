@@ -35,11 +35,11 @@ export default function Header() {
 
       {/* HAC logo, posiitoned absolutely */}
 
-      <div className="w-full border-b-4 border-red-400 h-24 z-10">
+      <div className="w-full h-24 z-10">
         <div className="grid grid-cols-3 h-full">
           <div className="col-span-1">
             <Image
-              src="/HACLogo.png"
+              src="/hac_logo_gray_text.png"
               alt="HAC logo"
               width={200}
               height={95}
@@ -63,6 +63,7 @@ export default function Header() {
 
         </div>
       </div>
+      <div className="h-1 bg-gradient-to-r from-red-900 via-red-700 to-red-900 z-10"> </div>
       
     {/* Principles */}
     {/* sm: md: lg: xl: */}
@@ -75,26 +76,26 @@ export default function Header() {
             <div className="col-span-1">
               <ul className="col-span-1">
                 <li
-                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-1 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-3 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                   md:h-16 md:mb-5 md:pt-4 lg:text-lg lg:h-14 lg:mb-4 lg:ml-16 lg:pt-5  "
+                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-1 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
+                   md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5 "
                 >
-                  Providing Effective Communications
+                  Providing Effective Communication
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-3 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-lg lg:h-14 lg:mb-4 lg:ml-16 lg:pt-4"
+                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                  Maximizing Return On Investment
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-3 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-lg lg:h-14 lg:mb-4 lg:ml-16 lg:pt-4"
+                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                   Providing Timely Deliverables
                 </li>
                 <li
-                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-3 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-lg lg:h-14 lg:mb-4 lg:ml-16 lg:pt-4"
+                  className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.85rem] lsm:pt-3 lsm:ht-12 md:text-lg
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                   Architecting SMARRTT Solutions
                 </li>

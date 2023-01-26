@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Offerings from "../components/Offerings";
 import ProcessPane from "../components/ProcessPane";
+import TestDisplay from "../components/Test-Connected-Display";
 
 // const noto = Noto_Sans_Display();
 
@@ -23,7 +24,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Offerings/>
-
+    <TestDisplay/>
       <div>
         {/* <Hero /> */}
         {/* <Offerings/> */}
