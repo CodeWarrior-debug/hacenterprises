@@ -3,15 +3,16 @@ import Image from "next/image";
 import useDimensions from "react-cool-dimensions";
 import arrayCeil from "../assets/arrayCeil";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 export default function Header() {
-  //
-  const [heroImage, setHeroImage] = useState("/hero-1440.png");
+
+  const [heroImage, setHeroImage] = useState("/hero-1440.gif");
   const imageSizes = [720, 1080,1440];
 
   const { observe, unobserve, width, height, entry } = useDimensions({
     onResize: ({ observe, unobserve, width, height, entry }) => {
-      setHeroImage(`/hero-${arrayCeil(imageSizes, width)}.png`);
+      setHeroImage(`/hero-${arrayCeil(imageSizes, width)}.gif`);
 
       unobserve(); // To stop observing the current target element
       observe(); // To re-start observing the current target element
@@ -32,6 +33,7 @@ export default function Header() {
         className="opacity-100  object-left-bottom -z-10"
         fill
       />
+      {/* <Hero/> */}
 
       {/* HAC logo, posiitoned absolutely */}
 

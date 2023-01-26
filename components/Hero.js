@@ -5,13 +5,13 @@ import arrayCeil from "../assets/arrayCeil";
 import Navbar from "./Navbar";
 
 export default function Hero() {
-  //
-  const [heroImage, setHeroImage] = useState("hero-1920.jpg");
+  
+  const [heroImage, setHeroImage] = useState("/hero-1920.gif");
   const imageSizes = [600, 1280, 1920];
 
   const { observe, unobserve, width, height, entry } = useDimensions({
     onResize: ({ observe, unobserve, width, height, entry }) => {
-      setHeroImage(`hero-${arrayCeil(imageSizes, width)}.jpg`);
+      setHeroImage(`/hero-${arrayCeil(imageSizes, width)}`);
 
       unobserve(); // To stop observing the current target element
       observe(); // To re-start observing the current target element

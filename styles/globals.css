@@ -27,6 +27,7 @@
 
 #first-offer:hover  ~  #first-offer-deets{
   visibility: visible;
+  
 }
 
 #second-offer:hover  ~  #second-offer-deets{
