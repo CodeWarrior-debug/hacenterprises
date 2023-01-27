@@ -21,22 +21,20 @@
 }
 
 
-#offer:hover  ~  #offer-deets{
+#first-offer:hover  ~  #first-offer-deets{
   display: block;
 }
 
-#second-offer:hover  ~  #second-offer-deets{
-  display: block;
-}
-
-#second-offer:hover  ~  #second-offer-deets{
-  visibility: visible;
-  display: block;
-}
-
-#second-offer-deets{
+#later-offer-deets{
   display: none;
   }
+
+#later-offer:hover  ~  #later-offer-deets{
+  display: block;
+}
+
+
+
 
 .red_button{
   background-image: url('/link_button.svg');

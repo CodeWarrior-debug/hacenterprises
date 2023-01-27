@@ -20,11 +20,11 @@ const Offerings = () => {
               {/* OFFERING START */}
               <div className="h-1/4  align-middle grid col-span-1">
                 <h3 id="first-offer" className= "bg-regal-blue hover:bg-aqua mr-2 text-white hover:text-black font-extrabold text-lg pl-2 lsm:text-2xl lsm:pl-8 md:text-2xl lg:pl-16 col-span-1">
-                  DESIGNING SMARRTT SOLUTIONS
-                  {/* ARCHITECTING SMARRTT SOLUTIONS */}
+                ARCHITECTING SMARRTT SOLUTIONS  &emsp; &emsp; &emsp; &emsp; &emsp;
+                  
                 </h3>
 
-                <div id="first-offer-deets" className="translate-x-36 -translate-y-20 sm:translate-x-52 sm:-translate-y-12 lsm:translate-x-64 lsm:-translate-y-20 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+                <div id="first-offer-deets" className="translate-x-36 -translate-y-28 sm:translate-x-52 sm:-translate-y-12 lsm:translate-x-64 lsm:-translate-y-20 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
                  
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     OUR SMARRTT SOLUTIONS
@@ -60,7 +60,7 @@ const Offerings = () => {
 
                 </h3>
                   {/* y difference = 28 */}
-                <div id="later-offer-deets" className="translate-x-36 -translate-y-48 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+                <div id="later-offer-deets" className="translate-x-36 -translate-y-56 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     Lorem ipsum dolor sit amet
                   </h2>
@@ -85,12 +85,13 @@ const Offerings = () => {
               <div className="grid grid-cols-2 ">
               <div className="h-1/4  align-middle grid col-span-1">
                 <h3 id="later-offer" className= "bg-regal-blue hover:bg-aqua mr-2 text-white hover:text-black font-extrabold text-lg pl-2 lsm:text-2xl lsm:pl-8 md:text-2xl lg:pl-16 col-span-1">
-                DATA & INFORMATION SECURITY
+                DATA & INFORMATION SECURITY &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;
 
 
                 </h3>
+                  {/* y difference = 28 from prev. */}
 
-                <div id="later-offer-deets" className="translate-x-36 -translate-y-48 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+                <div id="later-offer-deets" className="translate-x-36 -translate-y-[76%] sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     Lorem ipsum dolor sit amet
                   </h2>
@@ -117,13 +118,15 @@ const Offerings = () => {
               {/* OFFERING END - NEW START */}
               <div className="grid grid-cols-2 ">
               <div className="h-1/4  align-middle grid col-span-1">
+
                 <h3 id="later-offer" className= "bg-regal-blue hover:bg-aqua mr-2 text-white hover:text-black font-extrabold text-lg pl-2 lsm:text-2xl lsm:pl-8 md:text-2xl lg:pl-16 col-span-1">
-                EXPERTISE IN &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                EXPERTISE IN &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp;
 
 
                 </h3>
+                  {/* y difference = 28 from prev. */}
 
-                <div id="later-offer-deets" className="translate-x-36 -translate-y-48 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+                <div id="later-offer-deets" className="translate-x-36 -translate-y-[102%] sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     Lorem ipsum dolor sit amet
                   </h2>
