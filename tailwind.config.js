@@ -7,7 +7,14 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-        xs: '320px', sm: '401px', lsm: '560px', md: '768px', // => @media (min-width: 768px) { ... } lg: '1024px', // => @media (min-width: 1024px) { ... } xl: '1280px', // => @media (min-width: 1280px) { ... } '2xl': '1536px',
+        xs: '320px', 
+        sm: '432px', 
+        lsm: '560px', 
+        lmm: '630px', 
+        md: '768px', // => @media (min-width: 768px)  { ... }
+        lg: '896px', // => @media (min-width: 1024px) { ... } 
+        xl: '983px', // => @media (min-width: 1280px) { ... }
+        '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
       },
       colors:{

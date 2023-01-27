@@ -20,14 +20,13 @@
 
 }
 
-#first-offer-deets{
-  visibility: hidden;
+
+#offer:hover  ~  #offer-deets{
+  display: block;
 }
 
-
-#first-offer:hover  ~  #first-offer-deets{
+#second-offer:hover  ~  #second-offer-deets{
   display: block;
-  
 }
 
 #second-offer:hover  ~  #second-offer-deets{
