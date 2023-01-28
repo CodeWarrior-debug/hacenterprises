@@ -24,7 +24,16 @@ const Offerings = () => {
                   
                 </h3>
 
-                <div id="first-offer-deets" className="translate-x-36 -translate-y-28 sm:translate-x-52 sm:-translate-y-12 lsm:translate-x-64 lsm:-translate-y-20 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+
+              </div>
+              
+              <div id="first-offer-deets" 
+                className="
+                -translate-y-20
+                sm:translate-x-52 sm:-translate-y-12 
+                lsm:translate-x-64 lsm:-translate-y-20 
+                lmm:translate-x-full 
+                lg:-translate-y-8">
                  
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     OUR SMARRTT SOLUTIONS
@@ -46,9 +55,10 @@ const Offerings = () => {
                     />
                   </div>
                 </div>
+              </div>
 
-              </div>
-              </div>
+
+
               {/* OFFERING END - NEW START */}
               <div className="grid grid-cols-2 ">
               <div className="h-1/4  align-middle grid col-span-1">
@@ -60,7 +70,7 @@ const Offerings = () => {
 
                 </h3>
                   {/* y difference = 28 */}
-                <div id="later-offer-deets" className="translate-x-36 -translate-y-56 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
+                <div id="later-offer-deets" className="z-10 translate-x-36 -translate-y-56 sm:translate-x-52 sm:-translate-y-40 lsm:translate-x-64 lsm:-translate-y-24 lmm:translate-x-full lg:-translate-y-12 xl:lg:-translate-y-8  hidden">
                   <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)]">
                     Lorem ipsum dolor sit amet
                   </h2>
