@@ -4,11 +4,13 @@ import Image from "next/image";
 
 const Offerings = () => {
 
-  const [title, SetTitle] = useState("begin");
-  const [texts, SetTexts] = useState("begin");
-  const [imgSrc, SetImgSrc] = useState("/smart_drill.png");
-  const [imgAlt, SetImgAlt] = useState("begin");
-  const [color, SetColor] = useState("#0000FF");
+  SetTitle("Our SMARTT Solutions");
+  SetTexts(
+    "are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration."
+  );
+  SetImgSrc("/smart_drill.png");
+  SetImgAlt("standards_drilldown");
+  SetColor("#00FF00");
 
   const upperCase = (text) => {
     return text.toUpperCase();
