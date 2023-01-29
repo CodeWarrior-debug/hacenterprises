@@ -21,7 +21,7 @@
 }
 
 
-#first-offer:hover  +  #first-offer-deets{
+/* #first-offer:hover  +  #first-offer-deets{
   display: block;
 }
 
@@ -31,7 +31,7 @@
 
 #later-offer:hover  ~  #later-offer-deets{
   display: block;
-}
+} */
 
 /* #later-offer:hover  +  #first-offer-deets{
   display: none;

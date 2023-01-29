@@ -145,7 +145,7 @@ const data =`<div id="later-offer-deets" className=" col-span-1 -translate-y-20 
 
 
               
-              {/* <div className="h-1/4 bg-regal-blue hover:bg-aqua  m-0 grid items-center">
+              <div className="h-1/4 bg-regal-blue hover:bg-aqua  m-0 grid items-center">
                 <h3 className="text-white hover:text-black font-extrabold text-lg pl-2 lsm:text-2xl lsm:pl-8 md:text-2xl lg:pl-16">
                   SYSTEM DEVELOPMENT, INTEGRATION, & ENHANCEMENT
                 </h3>
@@ -197,7 +197,7 @@ const data =`<div id="later-offer-deets" className=" col-span-1 -translate-y-20 
                   height={100}
                 />
               </div>
-            </div> */}
+            </div>
 
       </section>
     </>
