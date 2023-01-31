@@ -23,7 +23,7 @@ export default function Header() {
     <>
     <div
       ref={observe}
-      className=" overflow-hidden object-fill relative lg:h-[50vh] z-0">
+      className=" overflow-hidden object-fill relative lg:h-[65vh] lg:max-h-[650px] z-0">
 
       {/* large Background GIF, has to be in parent of foreground text */}
 
@@ -37,24 +37,16 @@ export default function Header() {
 
       {/* HAC logo, posiitoned absolutely */}
 
-      <div className="w-full h-24 z-10">
+      <div className="w-full h-24 ">
         <div className="grid grid-cols-3 h-full">
-          <div className="col-span-1">
+          <div className="col-span-1 mt-8 ml-8">
             <Image
-              src="/hac_logo_gray_text.png"
+              src="/hac_logo_white-offset.svg"
               alt="HAC logo"
               width={200}
               height={95}
               className="absolute top-0 left-0 block w-[199px]  "
             ></Image>
-              {/* <Image
-              src="/hac_logo.png"
-              alt="HAC logo"
-              width={100}
-
-              height={100}
-              className="absolute top-0 left-0 block "
-            ></Image> */}
           </div>
 
         
@@ -65,39 +57,39 @@ export default function Header() {
 
         </div>
       </div>
-      <div className="h-1 bg-gradient-to-r from-red-900 via-red-700 to-red-900 z-10"> </div>
+      <div className="h-2 bg-gradient-to-r from-red-900 via-red-700 to-red-900 z-10"> </div>
       
     {/* Principles */}
     {/* sm: md: lg: xl: */}
 
     <div className="h-full flex flex-col justify-center z-10">
       <section className="grid grid-cols-2 ml-8 xs:mt-4 sm:mt-8 lsm:mt-12 md:mt-20 lg:mt-0 lg:mb-24">
-            <p className="col-span-1 mr-auto ml-auto font-extrabold text-white text-xl xs:mb-16 sm:mb-4 sm:text-xl lsm:text-2xl lsm:leading-relaxed lg:text-3xl xl:text-6xl">
+            <p className="col-span-1 mr-auto ml-auto font-extrabold text-white text-xl xs:mb-16 sm:mb-4 sm:text-xl lsm:text-xl lsm:leading-relaxed lg:text-xl xl:mt-12 xl:text-5xl">
               A full service technology solutions company with a passion & purpose towards:
             </p>
             <div className="col-span-1">
-              <ul className="col-span-1">
+              <ul className="col-span-1 pl-20">
                 <li
                   className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-1 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                   md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5 "
+                   md:h-16 md:mb-5 md:pt-4 lg:text-[.9rem] lg:leading-4 lg:h-12 lg:mb-4 lg:ml-16 lg:pt-3.5 "
                 >
                   Providing Effective Communication
                 </li>
                 <li
                   className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[.9rem] lg:leading-4 lg:h-12 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                  Maximizing Return On Investment
                 </li>
                 <li
                   className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.75rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[.9rem] lg:leading-4 lg:h-12 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                   Providing Timely Deliverables
                 </li>
                 <li
                   className="bg-transparent bg-no-repeat text-[.5rem] h-8 mb-2 pt-0 text-white red_button hover:scale-125 xs:pl-0 xs:pt-0 sm:text-[.6rem] sm:h-16 sm:mb-2 sm:mt-2 sm:pt-2 sm:pl-2 lsm:text-[.85rem] lsm:pt-3 lsm:ht-12 md:text-lg
-                  md:h-16 md:mb-5 md:pt-4 lg:text-[1.1rem] lg:h-14 lg:mb-4 lg:ml-16 lg:pt-3.5"
+                  md:h-16 md:mb-5 md:pt-4 lg:text-[.9rem] lg:leading-4 lg:h-12 lg:mb-4 lg:ml-16 lg:pt-3.5"
                 >
                   Architecting SMARRTT Solutions
                 </li>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 import Image from "next/image";
 
 const Offerings = () => {
@@ -59,19 +60,19 @@ const Offerings = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 h-[45vh]">
         <div>
 
         <div
         
-          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg flex flex-col justify-center"
+          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
           onMouseEnter={() => handleBox1Toggle() }
           >
           ARCHITECTING SMARRTT SOLUTIONS
         </div>
         <div
         
-        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg flex flex-col justify-center"
+        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
         onMouseEnter={() => handleBox2Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           SYSTEM DEVELOPMENT & INTEGRATION
@@ -79,7 +80,7 @@ const Offerings = () => {
         </div>
         <div
         
-          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg flex flex-col justify-center"
+          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
           onMouseEnter={() => handleBox3Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           
@@ -99,12 +100,12 @@ const Offerings = () => {
                       
                       >
                 <div className="col-span-1 flex flex-col justify-center">
-                  <h3 className="text-white hover:text-black font-extrabold text-lg pl-2">
+                  <h3 className="text-white  font-extrabold text-lg pl-4">
                     EXPERTISE IN
                   </h3>
                 </div>
-                <div className="col-span-2 hidden md:block lg:pl-8 flex flex-col justify-center">
-                  <p className="text-white leading-tight md:text-xs text-sm text-center">
+                <div className="col-span-2 md:block lg:pl-8 flex flex-col justify-start text-center">
+                  <p className="text-white leading-tight md:text-xs lg:text-base lg:leading-relaxed text-start">
                     ISO 9001, 20001, 27001, & OTHERS
                     <br />
                     CMMI V2, SVC & DEV MODELS

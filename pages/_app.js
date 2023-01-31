@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import { Lato, Red_Hat_Display } from '@next/font/google'
 
 
-const red_hat = Red_Hat_Display({weight:['500']},{style:['normal']})
+const red_hat = Red_Hat_Display({weight:['500']},{style:['normal']}, {subsets:['latin']})
 
 
 export default function App({ Component, pageProps }) {
