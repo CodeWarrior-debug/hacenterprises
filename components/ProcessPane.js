@@ -8,8 +8,8 @@ const ProcessPane = () => {
       <div className="bg-gradient-to-b to-maroon from-veniceRed grid grid-cols-2 p-4">
         <div className="col-span-2 md:col-span-1">
           <div className="text-white">
-            <h4 className="text-4xl font-extrabold text-center xl:mt-5 xl:mb-2 xl:p-8">How do we deliver success for our customers?</h4>
-            <p className="text-left lg:text-xl xl:text-2xl p-8 pl-16 pr-16 leading-relaxed">
+            <h4 className="text-4xl font-extrabold text-start xl:mt-5 xl:mb-2 xl:p-8">How do we deliver success for our customers?</h4>
+            <p className="text-left lg:text-xl xl:text-2xl p-8 pr-16 pb-16 leading-relaxed">
             Techniques such as TOPS, PDCA, RMF, A3, 6S, and Kaizen breakthrough initiatives ensure a comprehensive understanding of your business goals contributing to delivering solutions that align with your stated requirements, expressed needs, and expectations.
             </p>
           </div>
