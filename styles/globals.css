@@ -37,6 +37,10 @@
   display: none;
 } */
 
+.header-overlay{
+  background: linear-gradient(to right, #041126, #092b4e 30%, #0e4272 100%);
+
+}
 
 
 .red_button{

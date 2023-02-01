@@ -3,7 +3,7 @@ import Image from "next/image";
 import useDimensions from "react-cool-dimensions";
 import arrayCeil from "../assets/arrayCeil";
 import Navbar from "./Navbar";
-import Hero from "./Hero";
+
 
 export default function Header() {
 
@@ -37,33 +37,33 @@ export default function Header() {
 
       {/* HAC logo, posiitoned absolutely */}
 
-      <div className="w-full h-24 header-overlay">
-        
+      <div className="w-full h-2">
+          <div className="bg-gradient-to-r from-coolBlack to-persian opacity-60">
+        <div className="grid grid-cols-3 h-full ">
 
-        <div className="grid grid-cols-3 h-full">
-          <div className="col-span-1 mt-8 ml-8">
-          <Image
+          <div className="col-span-1 ml-8 opacity-80">
+            <Image
               src="/hac_logo_white-offset.svg"
               alt="HAC logo"
               width={200}
               height={95}
-              className="absolute top-2 left-2 block w-[199px]"
-              ></Image>
+              className="absolute top-4 left-4 block w-[199px]"
+            ></Image>
           </div>
 
         
 
           <Navbar />
-              {/* </div> */}
+          </div>
           
 
 
         </div>
       </div>
-      <div className="h-2 bg-gradient-to-r from-red-900 to-red-700 z-10"> </div>
+      <div className="h-2 bg-gradient-to-r from-red-900 via-red-700 to-red-900 z-10"> </div>
       
     {/* Principles */}
-    {/* sm: md: lg: xl: */}
+
 
     <div className="h-full flex flex-col justify-center z-10">
       <section className="grid grid-cols-2 ml-8 xs:mt-4 sm:mt-8 lsm:mt-12 md:mt-20 lg:mt-0 lg:mb-24">

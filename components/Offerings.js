@@ -63,16 +63,21 @@ const Offerings = () => {
       <div className="grid grid-cols-2 h-[45vh]">
         <div>
 
+
         <div
         
-          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+          className="h-1/4 col-start-1 col-span-1
+           bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
+            text-white font-extrabold text-lg flex flex-col justify-center pl-4"
           onMouseEnter={() => handleBox1Toggle() }
           >
           ARCHITECTING SMARRTT SOLUTIONS
         </div>
         <div
         
-        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+        className="h-1/4 col-start-1 col-span-1
+        bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
+        text-white font-extrabold text-lg flex flex-col justify-center pl-4"
         onMouseEnter={() => handleBox2Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           SYSTEM DEVELOPMENT & INTEGRATION
@@ -80,7 +85,9 @@ const Offerings = () => {
         </div>
         <div
         
-          className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua  text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+          className="h-1/4 col-start-1 col-span-1
+          bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
+          text-white font-extrabold text-lg flex flex-col justify-center pl-4"
           onMouseEnter={() => handleBox3Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           
@@ -95,7 +102,9 @@ const Offerings = () => {
           
           EXPERTISE IN
         </div> */}
-                      <div className="h-1/4 col-span-1 bg-regal-blue hover:bg-aqua  m-0 grid grid-cols-3 items-center"
+                      <div className="h-1/4 col-span-1 
+           bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
+                      m-0 grid grid-cols-3 items-center"
           onMouseEnter={() => handleBox4Toggle()} onMouseLeave={() => defaultHandleLeave()}
                       
                       >
@@ -105,7 +114,7 @@ const Offerings = () => {
                   </h3>
                 </div>
                 <div className="col-span-2 md:block lg:pl-8 flex flex-col justify-start text-center">
-                  <p className="text-white leading-tight md:text-xs lg:text-base lg:leading-relaxed text-start">
+                  <p className="text-white leading-tight md:text-xs lg:text-[.9rem] lg:leading-[1.25rem] text-start">
                     ISO 9001, 20001, 27001, & OTHERS
                     <br />
                     CMMI V2, SVC & DEV MODELS
@@ -124,13 +133,13 @@ const Offerings = () => {
           style={{ backgroundColor: { color } }}
           className=" col-start-2 col-span-1"
         >
-          {/* // -translate-y-20 sm:translate-x-52 sm:-translate-y-12 lsm:translate-x-64 lsm:-translate-y-20 lmm:translate-x-full lg:-translate-y-8" > */}
 
-          <h2 className="text-aqua font-extrabold text-lg text-center drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
+
+          <h2 className="text-aqua font-extrabold text-lg lg:text-4xl pl-7 pt-3 text-start drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
             {upperCase(title)}
           </h2>
           <div className="flex flex-row ">
-            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-3 lsm:text-base">
+            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl ">
               {" "}
               {texts}{" "}
             </p>
