@@ -43,11 +43,11 @@ export default function Header() {
         <div className="grid grid-cols-3 h-full">
           <div className="col-span-1 mt-8 ml-8">
           <Image
-              src="/hac_logo_white-offset.png"
+              src="https://i.imgur.com/bFeXFtS.png"
               alt="HAC logo"
               width={200}
               height={95}
-              className="absolute top-2 left-2 block w-[199px]"
+              className="absolute top-2 left-2 block w-[200px]"
               ></Image>
           </div>
 
