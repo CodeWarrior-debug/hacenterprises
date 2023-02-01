@@ -43,7 +43,7 @@ export default function Header() {
         <div className="grid grid-cols-3 h-full">
           <div className="col-span-1 mt-8 ml-8">
           <Image
-              src="/hac_logo_white-offset.svg"
+              src="/hac_logo_white-offset.png"
               alt="HAC logo"
               width={200}
               height={95}
