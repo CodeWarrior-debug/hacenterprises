@@ -1,16 +1,14 @@
 import '../styles/globals.css'
-import { Lato, Red_Hat_Display } from '@next/font/google'
+import { Plus_Jakarta_Sans } from '@next/font/google'
 
-
-const red_hat = Red_Hat_Display({weight:['500']},{style:['normal']}, {subsets:['latin']})
-
+const plus_jakarta=Plus_Jakarta_Sans({weight:['variable']},{style:['normal']}, {subsets:['latin-ext']})
 
 export default function App({ Component, pageProps }) {
   return (
     <>
     <style jsx global>{`
     html {
-      font-family: ${red_hat.style.fontFamily};
+      font-family: ${plus_jakarta.style.fontFamily};
     }
   `}</style>
 
