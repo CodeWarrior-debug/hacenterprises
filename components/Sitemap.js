@@ -6,7 +6,6 @@ import React from "react";
 const Sitemap = () => {
   return (
     <>
-      {/* <div className="flex"> */}
         <div className="grid grid-cols-4">
           {HACofferings.map((topObject, index) => {
             return (

@@ -15,14 +15,6 @@ const Offerings = () => {
     }
   )
 
-  
-  
-
-  // const [title, SetTitle] = useState("");
-  // const [texts, SetTexts] = useState();
-  // const [imgSrc, SetImgSrc] = useState("");
-  // const [imgAlt, SetImgAlt] = useState("");
-  // const [color, SetColor] = useState("");
 
   const upperCase = (text) => {
      return text.toUpperCase();
@@ -113,14 +105,7 @@ const Offerings = () => {
           DATA & INFORMATION SECURITY
 
         </div>
-        {/* <div
-        id="later-offer"
-        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg"
-        onMouseEnter={() => handleBox4Toggle()} onMouseLeave={() => defaultHandleLeave()}
-        >
-          
-          EXPERTISE IN
-        </div> */}
+
                       <div className="h-1/4 col-span-1 
            bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
                       m-0 grid grid-cols-3 items-center"

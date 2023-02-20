@@ -17,9 +17,4 @@ const Dropdown = ({ submenus, dropdown, depthLevel  }) => {
 
 export default Dropdown;
 
-{/*         <li key={index} className="menu-items">
-<a href={submenu.url}>{submenu.title}</a>
-           <Link href={submenu.url}>
-           <p>{submenu.title}</p> 
-            </Link> 
-        // </li>*/}
+

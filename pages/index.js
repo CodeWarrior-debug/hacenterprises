@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../components/Header";
-// import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Offerings from "../components/Offerings";
 import ProcessPane from "../components/ProcessPane";
