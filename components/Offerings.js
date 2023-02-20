@@ -5,58 +5,84 @@ import Image from "next/image";
 
 const Offerings = () => {
 
-  const [title, SetTitle] = useState("Our SMARTT Solutions");
-  const [texts, SetTexts] = useState("are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration.");
-  const [imgSrc, SetImgSrc] = useState("/smart_drill.png");
-  const [imgAlt, SetImgAlt] = useState("standards_drilldown");
-  const [color, SetColor] = useState("#0000FF");
+  const [offering, setOffering] = useState(
+    {
+    title:'Our SMARTT Solutions',
+      texts: "",
+      imgSrc: "",
+      imgAlt: "",
+      color: ""
+    }
+  )
+
+  
+  
+
+  // const [title, SetTitle] = useState("");
+  // const [texts, SetTexts] = useState();
+  // const [imgSrc, SetImgSrc] = useState("");
+  // const [imgAlt, SetImgAlt] = useState("");
+  // const [color, SetColor] = useState("");
 
   const upperCase = (text) => {
-    return text.toUpperCase();
+     text.toUpperCase();
   };
 
   const handleBox1Toggle = () => {
-    SetTitle("Our SMARTT Solutions");
-    SetTexts(
-      "are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration."
-    );
-    SetImgSrc("/smart_drill.png");
-    SetImgAlt("standards_drilldown");
-    SetColor("#00FF00");
+
+    setOffering({
+      title:"Our SMARTT Solutions",
+      texts: "are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration.",
+      imgSrc: "/smart_drill.png",
+      imgAlt: "standards_drilldown",
+      color: "#0000FF"
+    })
+
+    // "");
+    // SetTexts(
+    //   ""
+    // );
+    // SetImgSrc("");
+    // SetImgAlt("");
+    // SetColor("");
   };
   const handleBox2Toggle = () => {
-    SetTitle("Our System Development");
-    SetTexts('Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate');
-    SetImgSrc("/smart_drill.png");
-    SetImgAlt("standards_drilldown");
-    SetColor("#00FF00");
+    setOffering({
+      title:"Our System Development",
+      texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
+      imgSrc: "/smart_drill.png",
+      imgAlt: "standards_drilldown",
+      color: "#00FF00"
+    })
+
   };
   const handleBox3Toggle = () => {
-    SetTitle("Our Data Security");
-    SetTexts('Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate');
-    SetImgSrc("/smart_drill.png");
-    SetImgAlt("standards_drilldown");
-    SetColor("#00FF00");
-  };
+    setOffering({
+      title:"Our System Development",
+      texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
+      imgSrc: "/smart_drill.png",
+      imgAlt: "standards_drilldown",
+      color: "#00FF00"
+  })};
   const handleBox4Toggle = () => {
-    SetTitle("OUR EXPERTISE AREAS");
-    SetTexts('Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate');
-    SetImgSrc("/smart_drill.png");
-    SetImgAlt("standards_drilldown");
-    SetColor("#00FF00");
-  };
+    setOffering({
+      title:"Our Data Security",
+      texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
+      imgSrc: "/smart_drill.png",
+      imgAlt: "standards_drilldown",
+      color: "#00FF00"
+  })};
 
   const defaultHandleLeave = () => {
-    SetTitle("Our SMARTT Solutions");
-    SetTexts(
-      "are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration."
-    );
-    SetImgSrc("/smart_drill.png");
-    SetImgAlt("standards_drilldown");
-    SetColor("#00FF00");
-  };
+    setOffering({
+      title:"Our Expertise Areas",
+      texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
+      imgSrc: "/smart_drill.png",
+      imgAlt: "standards_drilldown",
+      color: "#00FF00"
+  })};
 
-  // onMouseLeave={()=>handleBox1Leave()}
+
 
   return (
     <>
@@ -94,14 +120,7 @@ const Offerings = () => {
           DATA & INFORMATION SECURITY
 
         </div>
-        {/* <div
-        id="later-offer"
-        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg"
-        onMouseEnter={() => handleBox4Toggle()} onMouseLeave={() => defaultHandleLeave()}
-        >
-          
-          EXPERTISE IN
-        </div> */}
+
                       <div className="h-1/4 col-span-1 
            bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
                       m-0 grid grid-cols-3 items-center"
@@ -109,7 +128,7 @@ const Offerings = () => {
                       
                       >
                 <div className="col-span-1 flex flex-col justify-center">
-                  <h3 className="text-white  font-extrabold text-lg pl-4">
+                  <h3 className="text-white font-extrabold text-lg pl-4">
                     EXPERTISE IN
                   </h3>
                 </div>
@@ -130,26 +149,26 @@ const Offerings = () => {
 
         <div
           id="later-offer-deets"
-          style={{ backgroundColor: { color } }}
+          style={{ backgroundColor:  offering.color  }}
           className=" col-start-2 col-span-1"
         >
 
 
           <h2 className="text-aqua font-extrabold text-lg lg:text-4xl pl-7 pt-3 text-start drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
-            {upperCase(title)}
+          {offering.title}
           </h2>
-          <div className="flex flex-row ">
-            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl ">
-              {" "}
-              {texts}{" "}
+          <div className="flex flex-row">
+            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl">
+              
+              {offering.texts}
             </p>
             <Image
-              src={imgSrc}
-              alt={imgAlt}
+              src={offering.imgSrc}
+              alt={offering.imgAlt}
               className="m-2 mt-6 max-h-48"
               width={100}
               height={100}
-            />{" "}
+            />{""}
           </div>
         </div>
         
@@ -158,4 +177,4 @@ const Offerings = () => {
   );
 };
 
-export default Offerings;
+export default Offerings

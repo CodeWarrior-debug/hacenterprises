@@ -1,12 +1,10 @@
 import Head from "next/head";
 import Header from "../components/Header";
-// import { Noto_Sans_Display } from "@next/font/google";
 // import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import Offerings from "../components/Offerings";
 import ProcessPane from "../components/ProcessPane";
 
-// const noto = Noto_Sans_Display();
 
 export default function Home() {
   return (
