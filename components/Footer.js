@@ -14,7 +14,7 @@ const Footer = () => {
       ©2023 HAC Enterprise - SMS & ISMS Systems Solutions. All Rights Reserved.
       </p>
       <p className='text-white text-end pr-8 font-bold'>
-        TM HAX-00XX23
+        HAX-00XX23™
       </p>
 
     </div>

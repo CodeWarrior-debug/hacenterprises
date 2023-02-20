@@ -25,7 +25,7 @@ const Offerings = () => {
   // const [color, SetColor] = useState("");
 
   const upperCase = (text) => {
-     text.toUpperCase();
+     return text.toUpperCase();
   };
 
   const handleBox1Toggle = () => {
@@ -38,13 +38,6 @@ const Offerings = () => {
       color: "#0000FF"
     })
 
-    // "");
-    // SetTexts(
-    //   ""
-    // );
-    // SetImgSrc("");
-    // SetImgAlt("");
-    // SetColor("");
   };
   const handleBox2Toggle = () => {
     setOffering({
@@ -58,7 +51,7 @@ const Offerings = () => {
   };
   const handleBox3Toggle = () => {
     setOffering({
-      title:"Our System Development",
+      title:"Our Data Security",
       texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
       imgSrc: "/smart_drill.png",
       imgAlt: "standards_drilldown",
@@ -66,7 +59,7 @@ const Offerings = () => {
   })};
   const handleBox4Toggle = () => {
     setOffering({
-      title:"Our Data Security",
+      title:"Our Expertise Areas",
       texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
       imgSrc: "/smart_drill.png",
       imgAlt: "standards_drilldown",
@@ -75,11 +68,11 @@ const Offerings = () => {
 
   const defaultHandleLeave = () => {
     setOffering({
-      title:"Our Expertise Areas",
-      texts: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate",
+      title:"Our SMARTT Solutions",
+      texts: "are based on knowledge and understanding of our clients’ goals and objectives, state of business environment, and challenges. Our primary purpose is to effectively and efﬁciently create solutions that maximize clients’ ROI through coordination and collaboration.",
       imgSrc: "/smart_drill.png",
       imgAlt: "standards_drilldown",
-      color: "#00FF00"
+      color: "#0000FF"
   })};
 
 
@@ -120,7 +113,14 @@ const Offerings = () => {
           DATA & INFORMATION SECURITY
 
         </div>
-
+        {/* <div
+        id="later-offer"
+        className="h-1/4 col-start-1 col-span-1 bg-regal-blue hover:bg-aqua hover:text-black text-white font-extrabold text-lg"
+        onMouseEnter={() => handleBox4Toggle()} onMouseLeave={() => defaultHandleLeave()}
+        >
+          
+          EXPERTISE IN
+        </div> */}
                       <div className="h-1/4 col-span-1 
            bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
                       m-0 grid grid-cols-3 items-center"
@@ -128,7 +128,7 @@ const Offerings = () => {
                       
                       >
                 <div className="col-span-1 flex flex-col justify-center">
-                  <h3 className="text-white font-extrabold text-lg pl-4">
+                  <h3 className="text-white  font-extrabold text-lg pl-4">
                     EXPERTISE IN
                   </h3>
                 </div>
@@ -149,18 +149,18 @@ const Offerings = () => {
 
         <div
           id="later-offer-deets"
-          style={{ backgroundColor:  offering.color  }}
+          // style={{ backgroundColor: offering.color  }}
           className=" col-start-2 col-span-1"
         >
 
 
           <h2 className="text-aqua font-extrabold text-lg lg:text-4xl pl-7 pt-3 text-start drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
-          {offering.title}
+            {upperCase(offering.title)}
           </h2>
-          <div className="flex flex-row">
-            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl">
-              
-              {offering.texts}
+          <div className="flex flex-row ">
+            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl ">
+              {" "}
+              {offering.texts}{" "}
             </p>
             <Image
               src={offering.imgSrc}
@@ -168,7 +168,7 @@ const Offerings = () => {
               className="m-2 mt-6 max-h-48"
               width={100}
               height={100}
-            />{""}
+            />{" "}
           </div>
         </div>
         
@@ -176,5 +176,5 @@ const Offerings = () => {
     </>
   );
 };
-
+      
 export default Offerings
