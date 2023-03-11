@@ -40,15 +40,19 @@ export default function Header() {
       <div className="w-full h-24 header-overlay">
         
 
-        <div className="grid grid-cols-3 h-full">
-          <div className="col-span-1 mt-8 ml-8">
+        <div className="grid grid-cols-3 md:h-[100px] grid-col items-center">
+          <div className="col-span-1 grid grid-col ml-5">
+
           <Image
               src="https://i.imgur.com/bFeXFtS.png"
               alt="HAC logo"
-              width={200}
-              height={95}
-              className="absolute top-2 left-2 block w-[200px]"
+              width={156.35}
+              height={63.5}
+              // className="absolute top-2 left-2 block"
+              // className="block  "
               ></Image>
+          
+          
           </div>
 
         

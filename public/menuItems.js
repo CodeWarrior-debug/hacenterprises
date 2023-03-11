@@ -1,8 +1,8 @@
 export const menuItems = [
-  {
-    title: "HOME",
-    url: "/",
-  },
+  // {
+  //   title: "HOME",
+  //   url: "/",
+  // },
   {
     title: "WHAT WE DO",
     url: "/what_we_do",
@@ -86,24 +86,24 @@ export const menuItems = [
   //     },
   //   ],
   // },
-  {
-    title: "EXPERIENCE",
-    url: "/experience",
-    submenu: [
-      {
-        title: "People + Processes = Performance",
-        url: "/experience/people_processes_make_performance",
-      },
-      {
-        title: "Project Highlights",
-        url: "/experience/project_highlights",
-      },
-      {
-        title: "Customers",
-        url: "/experience/customers",
-      },
-    ],
-  },
+  // {
+  //   title: "EXPERIENCE",
+  //   url: "/experience",
+  //   submenu: [
+  //     {
+  //       title: "People + Processes = Performance",
+  //       url: "/experience/people_processes_make_performance",
+  //     },
+  //     {
+  //       title: "Project Highlights",
+  //       url: "/experience/project_highlights",
+  //     },
+  //     {
+  //       title: "Customers",
+  //       url: "/experience/customers",
+  //     },
+  //   ],
+  // },
   {
     title: "OUR COMPANY",
     url: "/our_company",
@@ -122,19 +122,19 @@ export const menuItems = [
       },
     ],
   },
-  {
-    title: "CONNECT",
-    url: "/our_company",
-    submenu: [
-      {
-        title: "Careers",
-        url: "/careers",
-      },
-      {
-        title: "Contact Us",
-        url: "/contact_us",
-      },
-    ],
-  },
+  // {
+  //   title: "CONNECT",
+  //   url: "/our_company",
+  //   submenu: [
+  //     {
+  //       title: "Careers",
+  //       url: "/careers",
+  //     },
+  //     {
+  //       title: "Contact Us",
+  //       url: "/contact_us",
+  //     },
+  //   ],
+  // },
 
 ];

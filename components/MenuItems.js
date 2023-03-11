@@ -35,7 +35,8 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="menu-items font-bold"
+
+      className="menu-items  "
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={closeDropdown}
@@ -48,9 +49,11 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
           >
-            <Link href={items.url} className="text-center ">{
+            <Link href={items.url} className="text-center text-[15px] font-extrabold ">
+              
+              <span className="text-center text-[15px] font-extrabold tracking-[.2em]">{items.title}</span>{
 
-             items.title
+             
 
 
             }</Link>
