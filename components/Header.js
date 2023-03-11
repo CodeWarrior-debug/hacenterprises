@@ -37,7 +37,10 @@ export default function Header() {
 
       {/* HAC logo, posiitoned absolutely */}
 
-      <div className="w-full h-24 header-overlay">
+{/* 31  60%  */}
+
+      <div className="w-full h-24 bg-gradient-to-r from-[#005fa3] via-[#003258]  to-[#00000A] opacity-40">
+      {/* <div className="w-full h-24 header-overlay"> */}
         
 
         <div className="grid grid-cols-3 md:h-[100px] grid-col items-center">
