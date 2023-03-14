@@ -71,24 +71,20 @@ const Offerings = () => {
 
   return (
     <>
-      <div className="grid grid-cols-2 h-[45vh]">
+      <div className="grid grid-cols-2 h-[432px]">
         <div>
 
 
         <div
         
-          className="h-1/4 col-start-1 col-span-1
-           bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
-            text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+          className="flex flex-col justify-center col-span-1 col-start-1 pl-4 text-2xl font-extrabold text-white h-1/4 bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue"
           onMouseEnter={() => handleBox1Toggle() }
           >
           ARCHITECTING SMARRTT SOLUTIONS
         </div>
         <div
         
-        className="h-1/4 col-start-1 col-span-1
-        bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
-        text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+        className="flex flex-col justify-center col-span-1 col-start-1 pl-4 text-2xl font-extrabold text-white h-1/4 bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue"
         onMouseEnter={() => handleBox2Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           SYSTEM DEVELOPMENT & INTEGRATION
@@ -96,9 +92,7 @@ const Offerings = () => {
         </div>
         <div
         
-          className="h-1/4 col-start-1 col-span-1
-          bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
-          text-white font-extrabold text-lg flex flex-col justify-center pl-4"
+          className="flex flex-col justify-center col-span-1 col-start-1 pl-4 text-2xl font-extrabold text-white h-1/4 bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue"
           onMouseEnter={() => handleBox3Toggle()} onMouseLeave={() => defaultHandleLeave()}
         >
           
@@ -106,18 +100,16 @@ const Offerings = () => {
 
         </div>
 
-                      <div className="h-1/4 col-span-1 
-           bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue 
-                      m-0 grid grid-cols-3 items-center"
+                      <div className="grid items-center grid-cols-3 col-span-1 m-0 h-1/4 bg-gradient-to-b from-regal-blue to-oxfordBlue hover:from-tealish hover:to-medElecBlue"
           onMouseEnter={() => handleBox4Toggle()} onMouseLeave={() => defaultHandleLeave()}
                       
                       >
-                <div className="col-span-1 flex flex-col justify-center">
-                  <h3 className="text-white  font-extrabold text-lg pl-4">
+                <div className="flex flex-col justify-center col-span-1">
+                  <h3 className="pl-4 text-2xl font-extrabold text-white">
                     EXPERTISE IN
                   </h3>
                 </div>
-                <div className="col-span-2 md:block lg:pl-8 flex flex-col justify-start text-center">
+                <div className="flex flex-col justify-start col-span-2 text-center md:block lg:pl-8">
                   <p className="text-white leading-tight md:text-xs lg:text-[.9rem] lg:leading-[1.25rem] text-start">
                     ISO 9001, 20001, 27001, & OTHERS
                     <br />
@@ -135,15 +127,15 @@ const Offerings = () => {
         <div
           id="later-offer-deets"
           // style={{ backgroundColor: offering.color  }}
-          className=" col-start-2 col-span-1"
+          className="col-span-1 col-start-2 "
         >
 
 
-          <h2 className="text-aqua font-extrabold text-lg lg:text-4xl pl-7 pt-3 text-start drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
+          <h2 className="text-[#3598d4] font-bold text-[40px] tracking-[.1em] pl-7 pt-3 text-start drop-shadow-[0_1.2px_1.2px_rgba(200,200,200,0.6)] ">
             {upperCase(offering.title)}
           </h2>
           <div className="flex flex-row ">
-            <p className="w-2/3 p-0 pt-4 font-semibold text-xs pl-7 lsm:text-base lg:text-2xl ">
+            <p className="w-2/3 p-0 pt-4 text-xs font-semibold pl-7 lsm:text-base lg:text-2xl ">
               {" "}
               {offering.texts}{" "}
             </p>
